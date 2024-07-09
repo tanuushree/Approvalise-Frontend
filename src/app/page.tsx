@@ -23,7 +23,6 @@ import { Navbar } from "@/components/landing-page/Navbar";
 import { Hero } from "@/components/landing-page/Hero";
 import { SectionTitle } from "@/components/landing-page/SectionTitle";
 import { Benefits } from "@/components/landing-page/Benefits";
-import { Faq } from "@/components/landing-page/Faq";
 import { Cta } from "@/components/landing-page/Cta";
 
 import { benefitOne, benefitTwo , benefitThree} from "@/components/landing-page/data";
@@ -44,8 +43,6 @@ export default function Home() {
 
       <SectionTitle title="Want to know more?">
       </SectionTitle>
-
-      <Faq />
       <Cta />
     </Container>
   );
